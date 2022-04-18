@@ -3,17 +3,51 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light">
-			<div className="container">
-				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
-				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
-				</div>
-			</div>
-		</nav>
+		<>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+	<div class="navbar-nav">
+		<div class="nav-item me-5">
+          <a class="nav-link " aria-current="page" href="#">Home</a>
+        </div>
+		<div class="nav-item me-5">
+          <a class="nav-link " aria-current="page" href="#">Menu</a>
+        </div>
+		<div class="nav-item me-5">
+          <a class="nav-link " aria-current="page" href="#">About</a>
+        </div>
+		<div class="nav-item me-5">
+          <a class="nav-link " aria-current="page" href="#">Contact</a>
+        </div>
+       
+	</div>
+	
+      
+    </div>
+	
+  </div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</>
 	);
 };
+
+
+let holdit = `<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="#">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#">Link</a>
+</li>
+
+
+</ul>`
