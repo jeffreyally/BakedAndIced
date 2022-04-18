@@ -7,14 +7,35 @@ export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-			<div className="alert alert-info">
-				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
-			</div>
+		
+		<div className="text-center" style={{backgroundColor:'ghostwhite'}}>
+			<h3><span style={{color:'#B388EB'}}>B388EB floral lavender</span>,
+			<span style={{color:'#F7AEF8'}}>F7AEF8 plum something</span>,
+			<span style={{color:'#FDC5F5'}}> FDC5F5cotton candy</span>,
+			
+			</h3>
+
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			
 			<p>
 				This boilerplate comes with lots of documentation:{" "}
 				<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
@@ -22,5 +43,6 @@ export const Home = () => {
 				</a>
 			</p>
 		</div>
+		
 	);
 };
