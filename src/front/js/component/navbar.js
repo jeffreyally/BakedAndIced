@@ -18,7 +18,7 @@ export const Navbar = () => {
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse " id="navbarNav">
-						<div class="container">
+						<div class="container m-0">
 							<div class="row">
 								<div class="col-10 d-flex justify-content-center">
 									<div class="navbar-nav">
