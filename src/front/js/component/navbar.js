@@ -32,6 +32,10 @@ export const Navbar = () => {
 				</div>
 				<div class="nav-item me-5">
 
+					<Link to="/"  style={{color:'#B388EB ',fontFamily: 'Coustard, serif'}}>FAQ</Link>
+				</div>
+				<div class="nav-item me-5">
+
 					<Link to="/"  style={{color:'#B388EB ',fontFamily: 'Coustard, serif'}}>Contact</Link>
 				</div>
 
