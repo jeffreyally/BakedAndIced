@@ -7,7 +7,13 @@ export const Navbar = () => {
 		
 			<nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor:'#FDC5F5'}}>
 				<div class="container-fluid">
-					<a class="navbar-brand" href="#" style={{fontSize:'40px'}}>Navbar</a>
+					<a class="navbar-brand" href="#">
+						<div style={{display:'flex', flexDirection:'column'}}>
+							<span style={{fontFamily: ' Bebas Neue, cursive',fontSize:'3.5vw'}}>Baked + Iced</span>
+							<span>By Arelys</span>
+						</div>
+						
+					</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
