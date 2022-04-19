@@ -4,6 +4,9 @@ import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 import springURL from "../../img/spring.jpeg";
 import springFlowers from "../../img/springflowers.jpeg"
+import BabyShower from "../../img/babyshower.jpeg"
+import wedding1 from "../../img/wedding1.jpeg"
+import wedding2 from "../../img/wedding2.jpeg"
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -37,6 +40,48 @@ export const Home = () => {
 
 								<div class="col-12 d-flex justify-content-center on your column div">
 									<img src= {springURL} class="d-block" alt="..."
+										style={{ maxWidth: '100%', height: '65vh', borderStyle:'solid', borderColor:'black' }} />
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					<div class="carousel-item" data-bs-interval="90000" style={{ position: 'relative' }}>
+						<div class="container">
+							<div class="row">
+							
+
+								<div class="col-12 d-flex justify-content-center on your column div">
+									<img src= {BabyShower} class="d-block" alt="..."
+										style={{ maxWidth: '100%', height: '65vh', borderStyle:'solid', borderColor:'black' }} />
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					<div class="carousel-item" data-bs-interval="90000" style={{ position: 'relative' }}>
+						<div class="container">
+							<div class="row">
+							
+
+								<div class="col-12 d-flex justify-content-center on your column div">
+									<img src= {wedding1} class="d-block" alt="..."
+										style={{ maxWidth: '100%', height: '65vh', borderStyle:'solid', borderColor:'black' }} />
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+					<div class="carousel-item" data-bs-interval="90000" style={{ position: 'relative' }}>
+						<div class="container">
+							<div class="row">
+							
+
+								<div class="col-12 d-flex justify-content-center on your column div">
+									<img src= {wedding2} class="d-block" alt="..."
 										style={{ maxWidth: '100%', height: '65vh', borderStyle:'solid', borderColor:'black' }} />
 								</div>
 
