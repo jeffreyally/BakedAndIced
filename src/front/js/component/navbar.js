@@ -20,19 +20,19 @@ export const Navbar = () => {
 		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 			<div class="navbar-nav">
 				<div class="nav-item me-5">
-					<Link to="/" style={{color:'#B388EB '}}>Home</Link>
+					<Link to="/" style={{color:'#B388EB ',fontFamily: 'Coustard, serif'}}>Home</Link>
 				</div>
 				<div class="nav-item me-5">
 
-					<Link to="/" style={{color:'#B388EB '}}>Menu</Link>
+					<Link to="/"  style={{color:'#B388EB ',fontFamily: 'Coustard, serif'}}>Menu</Link>
 				</div>
 				<div class="nav-item me-5">
 
-					<Link to="/" style={{color:'#B388EB '}}>About</Link>
+					<Link to="/"  style={{color:'#B388EB ',fontFamily: 'Coustard, serif'}}>About</Link>
 				</div>
 				<div class="nav-item me-5">
 
-					<Link to="/" style={{color:'#B388EB '}}>Contact</Link>
+					<Link to="/"  style={{color:'#B388EB ',fontFamily: 'Coustard, serif'}}>Contact</Link>
 				</div>
 
 			</div>
