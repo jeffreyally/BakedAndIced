@@ -11,7 +11,7 @@ export const Home = () => {
 	return (
 
 		<div className="text-center" style={{ backgroundColor: 'ghostwhite' }}>
-
+			
 			<br></br>
 
 			<div id="carouselExampleInterval" class=" carousel slide carousel carousel-dark" data-bs-ride="carousel" >
