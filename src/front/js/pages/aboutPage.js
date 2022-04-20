@@ -13,11 +13,7 @@ import Anniversary from '../../img/anniversary.jpeg'
 export const AboutPage = () => {
 
     return (
-        <>
-            
-            {/* <img src={RainGear}></img>
-    <img src={Anniversary}></img> */}
-<br></br>
+        
             <div class="container" >
                 <br></br>
                 <p class="text-center" style={{fontFamily:'Bubblegum Sans, cursive',
@@ -87,7 +83,7 @@ export const AboutPage = () => {
                 </div>
             </div>
 
-        </>
+        
     )
 }
 

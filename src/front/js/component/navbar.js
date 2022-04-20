@@ -33,7 +33,7 @@ export const Navbar = () => {
 												<div class="col-lg">
 													<div class="nav-item me-5">
 
-														<Link to="/" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>Menu</Link>
+														<Link to="/flavors" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>Flavors</Link>
 													</div>
 												</div>
 												<div class="col-lg">

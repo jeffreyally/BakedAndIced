@@ -19,6 +19,7 @@ export const Home = () => {
 			<br></br>
 			<p class="text-center" style={{fontFamily:'Bubblegum Sans, cursive',
             fontSize:'3rem'}}><i>CHECK OUT OUR DESIGNS</i></p>
+			<br></br>
 			<HomePageCookieCarousel/>
 
 
