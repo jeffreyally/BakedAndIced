@@ -17,6 +17,8 @@ export const Home = () => {
 
 		<div className="text-center" style={{ backgroundColor: 'ghostwhite' }}>
 			<br></br>
+			<p class="text-center" style={{fontFamily:'Bubblegum Sans, cursive',
+            fontSize:'3rem'}}><i>CHECK OUT OUR DESIGNS</i></p>
 			<HomePageCookieCarousel/>
 
 
