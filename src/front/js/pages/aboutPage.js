@@ -23,7 +23,9 @@ export const AboutPage = () => {
                 <p class="text-center">our story</p>
                 <div class="row row-cols-md-2 row-cols-lg-3 g-5 ">
                     <div class="col">
-                        <div class="card mx-auto" style={{ width: '18rem' }}>
+                        <div class="card mx-auto p-3 pb-4" style={{ width: '19rem',
+                        border:'1px solid transparent ',
+                    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                             <img src={RainGear} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -31,7 +33,9 @@ export const AboutPage = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card mx-auto" style={{ width: '18rem' }}>
+                        <div class="card mx-auto p-3 pb-4" style={{ width: '19rem',
+                         border:'1px solid transparent ',
+                    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                             <img src={RainGear} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -39,7 +43,9 @@ export const AboutPage = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card mx-auto" style={{ width: '18rem' }}>
+                        <div class="card mx-auto  p-3 pb-4" style={{ width: '19rem',
+                         border:'1px solid transparent ',
+                    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                             <img src={RainGear} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -47,7 +53,9 @@ export const AboutPage = () => {
                         </div>
                     </div>
                     <div class="col ">
-                        <div class="card mx-auto" style={{ width: '18rem' }}>
+                        <div class="card mx-auto  p-3 pb-4" style={{ width: '19rem',
+                         border:'1px solid transparent ',
+                    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                             <img src={RainGear} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -55,7 +63,9 @@ export const AboutPage = () => {
                         </div>
                     </div>
                     <div class="col ">
-                        <div class="card mx-auto" style={{ width: '18rem' }}>
+                        <div class="card mx-auto  p-3 pb-4" style={{ width: '19rem',
+                         border:'1px solid transparent ',
+                    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                             <img src={RainGear} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -63,7 +73,9 @@ export const AboutPage = () => {
                         </div>
                     </div>
                     <div class="col ">
-                        <div class="card mx-auto" style={{ width: '18rem' }}>
+                        <div class="card mx-auto  p-3 pb-4" style={{ width: '19rem',
+                         border:'1px solid transparent ',
+                    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
                             <img src={RainGear} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
