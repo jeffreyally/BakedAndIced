@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { AboutPage } from '../pages/aboutPage.js'
 
 export const Navbar = () => {
 	return (
@@ -24,7 +25,7 @@ export const Navbar = () => {
 									<div class="navbar-nav">
 										<div class="container">
 											<div class="row">
-											<div class="col">
+												<div class="col">
 													<div class="nav-item me-5">
 														<Link to="/" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>Home</Link>
 													</div>
@@ -38,7 +39,7 @@ export const Navbar = () => {
 												<div class="col-lg">
 													<div class="nav-item me-5">
 
-														<Link to="/" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>About</Link>
+														<Link to="/about" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>About</Link>
 													</div>
 												</div>
 												<div class="col-lg">

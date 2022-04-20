@@ -6,6 +6,7 @@ import { Home } from "./pages/home";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
+import { AboutPage } from "./pages/aboutPage";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -21,19 +22,18 @@ const Layout = () => {
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Navbar />
+					
 					<Switch>
-						<Route exact path="/">
-							<Home />
-						</Route>
-						<Route exact path="/demo">
-							<Demo />
-						</Route>
-						<Route exact path="/single/:theid">
-							<Single />
-						</Route>
-						<Route>
-							<h1>Not found!</h1>
-						</Route>
+					<Route exact path="/about" component={AboutPage} />
+					<Route exact path="/" component={Home}/>
+							
+					<Route exact path="/demo" component={Demo}/>
+							
+					<Route exact path="/single/:theid" component={Single}/>
+							
+					<Route>
+						<h1>Not found!</h1>
+					</Route>
 					</Switch>
 					<Footer />
 				</ScrollToTop>

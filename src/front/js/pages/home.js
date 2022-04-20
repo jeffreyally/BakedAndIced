@@ -9,6 +9,7 @@ import wedding1 from "../../img/wedding1.jpeg"
 import wedding2 from "../../img/wedding2.jpeg"
 import {HomePageCookieCarousel} from '../component/homePageCookieCarousel.js'
 
+
 export const Home = () => {
 	const { store, actions } = useContext(Context);
 
