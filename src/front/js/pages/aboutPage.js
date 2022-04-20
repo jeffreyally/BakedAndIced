@@ -33,10 +33,10 @@ export const AboutPage = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card mx-auto p-3 pb-4" style={{ width: '19rem',
+                        <div class="card mx-auto p-3 pb-4 h-100" style={{ width: '19rem',
                          border:'1px solid transparent ',
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
-                            <img src={RainGear} class="card-img-top" alt="..." />
+                            <img src={Anniversary} class="card-img-top" alt="..." style={{height:'252px'}}/>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
