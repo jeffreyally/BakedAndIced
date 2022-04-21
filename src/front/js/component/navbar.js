@@ -52,7 +52,7 @@ export const Navbar = () => {
 												<div class="col-lg">
 													<div class="nav-item me-5">
 
-														<Link to="/" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>Contact</Link>
+														<Link to="/contact" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>Contact</Link>
 													</div>
 												</div>
 											</div>
