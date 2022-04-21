@@ -7,6 +7,8 @@ import springFlowers from "../../img/springflowers.jpeg"
 import BabyShower from "../../img/babyshower.jpeg"
 import wedding1 from "../../img/wedding1.jpeg"
 import wedding2 from "../../img/wedding2.jpeg"
+import logo from "../../img/Logo.png"
+
 import {HomePageCookieCarousel} from '../component/homePageCookieCarousel.js'
 
 
@@ -23,6 +25,7 @@ export const Home = () => {
 			<HomePageCookieCarousel/>
 
 
+			
 			
 			<h3><span style={{ color: '#B388EB' }}>B388EB floral lavender</span>,
 				<span style={{ color: '#F7AEF8' }}>F7AEF8 plum something</span>,

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AboutPage } from '../pages/aboutPage.js'
+import logo from "../../img/Logo.png"
 
 export const Navbar = () => {
 	return (
@@ -67,6 +68,7 @@ export const Navbar = () => {
 
 
 					</div>
+					<img src={logo} style={{height:'100px', width:'100px'}}/>
 
 
 				</div>
