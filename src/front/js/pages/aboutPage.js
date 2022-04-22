@@ -2,6 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import RainGear from '../../img/raingear.jpeg'
 import Anniversary from '../../img/anniversary.jpeg'
+import AnniversaryCookies from '../../img/aboutPagePics/AnniversaryCookies.jpeg'
+import GiantDonut from '../../img/aboutPagePics/GiantDonut.jpeg'
+import MiniWhisk from '../../img/aboutPagePics/MiniWhisk.jpeg'
+import StandMixer from '../../img/aboutPagePics/StandMixer.jpeg'
+import Sunflower from '../../img/aboutPagePics/Sunflower.jpeg'
+import WeddingCookies from '../../img/aboutPagePics/WeddingCookies.jpeg'
 //copy and paste what you have below, but fyi this class here row row-cols-md-2 row-cols-lg-3 g-5 really could
 //have simplified things for you lol. Live and learn
 
@@ -20,10 +26,10 @@ export const AboutPage = () => {
             fontSize:'3rem'}}><i>OUR STORY</i></p>
                 <div class="row row-cols-md-2 row-cols-lg-3 g-5 ">
                     <div class="col">
-                        <div class="card mx-auto p-3 pb-4" style={{ width: '19rem',
+                        <div class="card mx-auto p-3 pb-4 h-100" style={{ width: '19rem',
                         border:'1px solid transparent ',
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
-                            <img src={RainGear} class="card-img-top" alt="..." />
+                            <img src={GiantDonut} class="card-img-top" alt="..." style={{height:'300px'}}/>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -33,47 +39,47 @@ export const AboutPage = () => {
                         <div class="card mx-auto p-3 pb-4 h-100" style={{ width: '19rem',
                          border:'1px solid transparent ',
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
-                            <img src={Anniversary} class="card-img-top" alt="..." style={{height:'252px'}}/>
+                            <img src={MiniWhisk} class="card-img-top" alt="..." style={{height:'300px'}}/>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card mx-auto  p-3 pb-4" style={{ width: '19rem',
+                        <div class="card mx-auto  p-3 pb-4 h-100" style={{ width: '19rem',
                          border:'1px solid transparent ',
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
-                            <img src={RainGear} class="card-img-top" alt="..." />
+                            <img src={Sunflower} class="card-img-top" alt="..." style={{height:'300px'}}/>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col ">
-                        <div class="card mx-auto  p-3 pb-4" style={{ width: '19rem',
+                        <div class="card mx-auto  p-3 pb-4 h-100" style={{ width: '19rem',
                          border:'1px solid transparent ',
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
-                            <img src={RainGear} class="card-img-top" alt="..." />
+                            <img src={StandMixer} class="card-img-top" alt="..." style={{height:'300px', objectFit: 'cover'}} />
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col ">
-                        <div class="card mx-auto  p-3 pb-4" style={{ width: '19rem',
+                        <div class="card mx-auto  p-3 pb-4 h-100" style={{ width: '19rem',
                          border:'1px solid transparent ',
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
-                            <img src={RainGear} class="card-img-top" alt="..." />
+                            <img src={WeddingCookies} class="card-img-top" alt="..." style={{height:'300px'}}/>
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col ">
-                        <div class="card mx-auto  p-3 pb-4" style={{ width: '19rem',
+                        <div class="card mx-auto  p-3 pb-4 h-100" style={{ width: '19rem',
                          border:'1px solid transparent ',
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
-                            <img src={RainGear} class="card-img-top" alt="..." />
+                            <img src={AnniversaryCookies} class="card-img-top" alt="..." style={{height:'300px'}} />
                             <div class="card-body">
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
