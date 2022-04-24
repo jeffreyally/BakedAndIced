@@ -15,7 +15,7 @@ export const Contact = () => {
 
       <div class="row d-flex justify-content-center  mt-3 no-gutters">
 
-        <div class="col-md-5 d-flex justify-content-center p-0" >
+        <div class="col-10 col-md-5 d-flex justify-content-center p-0" >
 
           <div class="image">
             <img src={FullLogo} class="img-fluid" />
@@ -25,13 +25,13 @@ export const Contact = () => {
 
         </div>
 
-        <div class="col-md-7 d-flex justify-content-center align-items-center" style={{
+        <div class="col-10 col-md-7 d-flex justify-content-center align-items-center" style={{
           backgroundColor: '#F7AEF8',
         }}>
           <div class=" d-flex">
 
             <form target="_blank" action="https://formsubmit.co/7801e72aca46261f4264461e4ada688a" method="POST">
-              <div class="row pb-3">
+              <div class="row pb-2 mt-4">
 
 
                 <div class="col-md-6">
@@ -53,16 +53,22 @@ export const Contact = () => {
                 <div class="col-md-12">
 
                   <label for="yourmessage" class="form-label">Message</label>
-                  <textarea  rows="3" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <textarea  style= {{overflow:'auto',resize:'none'}} rows="4" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
               
 
                 </div>
 
               </div>
 
+              <div class="row py-2 ">
+                <div class="col">
+                <button type="submit" class=" btn btn-primary">Submit</button>
+                </div>
+              </div>
+
 
               
-              <button type="submit" class=" my-1 btn btn-sm btn-primary">Submit Form</button>
+              
             </form>
 
 
