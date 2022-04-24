@@ -8,19 +8,19 @@ export const Contact = () => {
 
     <div class="container">
 
-      <div class="row d-flex justify-content-center align-items-center mt-3 no-gutters">
+      <div class="row d-flex justify-content-center  mt-3 no-gutters">
 
-        <div class="col-md-4 d-flex justify-content-center" style={{ borderStyle: 'dotted' }}>
+        <div class="col-md-5 d-flex justify-content-center p-0" >
 
           <div class="image">
-            <img src={FullLogo} class="img-fluid" style={{ height: 'auto', maxWidth: '100%' }} />
+            <img src={FullLogo} class="img-fluid" />
           </div>
 
 
 
         </div>
 
-        <div class="col-md-4" style={{ borderStyle: 'dotted' }}>
+        <div class="col-md-5 d-flex justify-content-center align-items-center" style={{ borderStyle: 'solid' }}>
           <div class=" d-flex ">
 
             <form target="_blank" action="https://formsubmit.co/7801e72aca46261f4264461e4ada688a" method="POST">
