@@ -25,27 +25,44 @@ export const Contact = () => {
 
         </div>
 
-        <div class="col-md-7 d-flex justify-content-center align-items-center  p-0" style={{
+        <div class="col-md-7 d-flex justify-content-center align-items-center" style={{
           backgroundColor: '#F7AEF8',
         }}>
-          <div class=" d-flex ">
+          <div class=" d-flex">
 
             <form target="_blank" action="https://formsubmit.co/7801e72aca46261f4264461e4ada688a" method="POST">
-              <label for="yourname" class="form-label">Name</label>
-              <input type="text" id="yourname" name="name" class="form-control" placeholder="Full Name" required />
-
-              <br></br>
-              <label for="youremail" class="form-label">Email address</label>
-
-              <input type="email" id="youremail" name="email" class="form-control" placeholder="Email Address" required />
-              <br></br>
-              <label for="yourmessage" class="form-label">Message</label>
+              <div class="row pb-3">
 
 
+                <div class="col-md-6">
+                  <label for="yourname" class="form-label">Name</label>
+                  <input type="text" id="yourname" name="name" class="form-control " placeholder="Full Name" required />
 
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                </div>
+                
 
-              <button type="submit" class="btn btn-sm btn-primary">Submit Form</button>
+                <div class="col-md-6">
+                  <label for="youremail" class="form-label">Email address</label>
+
+                  <input type="email" id="youremail" name="email" class="form-control" placeholder="Email Address" required />
+                  
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+
+                  <label for="yourmessage" class="form-label">Message</label>
+                  <textarea  rows="3" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              
+
+                </div>
+
+              </div>
+
+
+              
+              <button type="submit" class=" my-1 btn btn-sm btn-primary">Submit Form</button>
             </form>
 
 
