@@ -31,6 +31,7 @@ export const Contact = () => {
           <div class=" d-flex">
 
             <form target="_blank" action="https://formsubmit.co/7801e72aca46261f4264461e4ada688a" method="POST">
+            <input type="text" name="_honey" style={{display:'none'}}/>
               <div class="row pb-2 mt-4">
 
 
@@ -53,7 +54,7 @@ export const Contact = () => {
                 <div class="col-md-12">
 
                   <label for="yourmessage" class="form-label">Message</label>
-                  <textarea  style= {{overflow:'auto',resize:'none'}} rows="4" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <textarea name="message" style= {{overflow:'auto',resize:'none'}} rows="4" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
               
 
                 </div>
@@ -68,7 +69,8 @@ export const Contact = () => {
 
 
               
-              
+            
+
             </form>
 
 
