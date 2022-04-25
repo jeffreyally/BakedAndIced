@@ -26,7 +26,7 @@ export const Navbar = () => {
 									<div class="navbar-nav">
 										<div class="container">
 											<div class="row">
-												<div class="col">
+												<div class="col-lg">
 													<div class="nav-item me-5">
 														<Link to="/" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>Home</Link>
 													</div>
@@ -68,7 +68,7 @@ export const Navbar = () => {
 
 
 					</div>
-					<img src={logo} style={{height:'100px', width:'100px'}}/>
+					
 
 
 				</div>
