@@ -1,50 +1,23 @@
 import React, { Component } from "react";
+import Logo from '../../img/Logo.png'
 
 export const Footer = () => {
 
 	return(
 
 		
-<footer class="text-center text-lg-start bg-light text-muted">
+<footer class="text-center text-lg-start bg-light text-muted  m-0">
   
-  <section
-    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-  >
+ 
     
-    <div class="me-5 d-none d-lg-block">
+    {/* <div class="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
     </div>
-    
-
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    
-  </section>
-  
-
-  
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
+     */}
+<section class="bg-info">
+    <div class="container text-center ">
       
-      <div class="row mt-3">
+      <div class="row pt-3">
         
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           
@@ -58,44 +31,17 @@ export const Footer = () => {
         </div>
         
         
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
         
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
        
 
        
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
          
           <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
+           Thanks For Stopping By!
           </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
+          <img src={Logo} style={{maxWidth:'100%', height:'6rem'}}/>
+        
         </div>
         
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -103,13 +49,14 @@ export const Footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
+          
           <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
             info@example.com
           </p>
           <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p><i class="fab fa-instagram"></i> Follow Us On Instagram</p>
         </div>
         
       </div>
@@ -120,8 +67,8 @@ export const Footer = () => {
 
   
   <div class="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <i class="fas fa-copyright"style={{color:'darkblue'}}></i>&nbsp;
+    <span style={{fontWeight:'bold'}}> 2022 Copyright: BAKED AND ICED BY ARELYS</span>
   </div>
   
 </footer>
