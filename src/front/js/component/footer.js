@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Logo from '../../img/Logo.png'
+import FullLogo from '../../img/fulllogo.jpeg'
 
 export const Footer = () => {
 
@@ -21,13 +22,14 @@ export const Footer = () => {
         
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
+        <div class="container-fluid">
+					
+						<div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div><img src={Logo} style={{maxWidth:'100%',height:'6rem'}}/></div>
+							<p class='BakedAndIced' style={{ fontFamily: ' Bebas Neue, cursive' }}>Baked + Iced</p>
+							<p class='ByArelys' style={{ fontFamily: 'Great Vibes, cursive', textAlign: 'center' }}>By Arelys</p>
+						</div>
+          </div>
         </div>
         
         
@@ -37,10 +39,24 @@ export const Footer = () => {
        
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
          
-          <h6 class="text-uppercase fw-bold mb-4">
-           Thanks For Stopping By!
-          </h6>
-          <img src={Logo} style={{maxWidth:'100%', height:'6rem'}}/>
+        <h5 class="text-uppercase mb-4">Opening hours</h5>
+  
+  <table class="table  text-yellow">
+    <tbody class="font-weight-normal">
+      <tr>
+      <td>Monday to Friday</td>
+      <td>8 am - 1 am</td>
+      </tr>
+      <tr>
+        <td>Friday and Saturday</td>
+        <td>8am - 1am</td>
+      </tr>
+      <tr>
+        <td>Sunday:</td>
+        <td>Closed</td>
+      </tr>
+    </tbody>
+  </table>
         
         </div>
         
