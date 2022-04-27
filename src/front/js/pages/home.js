@@ -18,50 +18,14 @@ export const Home = () => {
 	return (
 
 		<div className="container" style={{ backgroundColor: 'ghostwhite' }}>
-			<div className="row row-cols-1 row-cols-md-2">
-				<div className="col d-flex align-items-center flex-column" style={{
-					borderStyle: 'dotted ',
-				}}>
-					<p style={{ fontFamily: 'Londrina Solid, cursive', fontSize: '6rem', textAlign: 'center' }}>Did you know?</p>
 
-					<p style={{
-						fontFamily: 'Londrina Solid, cursive', fontSize: '2rem',
-						fontWeight: '300', textAlign: 'center'
-					}}>National Cookie Day is <s>December 4th.</s> Every day</p>
+<p style={{ fontFamily: 'Londrina Solid, cursive', fontSize: '6rem', textAlign: 'center' }}>Did you know?</p>
 
-
-
-				</div>
-				<div className="col" style={{ borderStyle: 'dotted ' }}>
-					<div class="row row-cols-1 row-cols-md-2 g-4">
-						<div class="col">
-							<div class="card">
-								<img src={springURL} class="card-img-top" alt="..."/>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-									</div>
-							</div>
-						</div>
-						<div class="col">
-							<div class="card">
-								<img src={springURL} class="card-img-top" alt="..."/>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-									</div>
-							</div>
-						</div>
-						</div>
-
-
-					</div>
-
-
-
-
-
-				</div>
+<p style={{
+	fontFamily: 'Londrina Solid, cursive', fontSize: '2rem',
+	fontWeight: '300', textAlign: 'center'
+}}>National Cookie Day is <s>December 4th.</s> Every day</p>
+			
 
 
 
