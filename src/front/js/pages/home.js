@@ -17,8 +17,28 @@ export const Home = () => {
 
 	return (
 
-		<div className="text-center" style={{ backgroundColor: 'ghostwhite' }}>
-			<br></br>
+		<div className="container" style={{ backgroundColor: 'ghostwhite' }}>
+			<div className="row row-cols-1 row-cols-sm-2">
+				<div className="col d-flex align-items-center flex-column" style={{borderStyle:'dotted ',
+			}}>
+					<p style={{fontFamily:'Londrina Solid, cursive',fontSize:'6rem',textAlign:'center'}}>Did you know?</p>
+					
+					<p style={{fontFamily:'Londrina Solid, cursive',fontSize:'2rem',
+					fontWeight:'300',textAlign:'center'}}>National Cookie Day is <s>December 4th.</s> Every day</p>
+
+
+
+				</div>
+				<div className="col" style={{borderStyle:'dotted '}}>
+					Three diagnol pictures
+
+				</div>
+			</div>
+			
+			
+			
+			
+			{/* <br></br>
 			<p class="text-center" style={{fontFamily:'Bubblegum Sans, cursive',
             fontSize:'3rem'}}><i>CHECK OUT OUR DESIGNS</i></p>
 			<br></br>
@@ -30,7 +50,7 @@ export const Home = () => {
 			<h3><span style={{ color: '#B388EB' }}>B388EB floral lavender</span>,
 				<span style={{ color: '#F7AEF8' }}>F7AEF8 plum something</span>,
 				<span style={{ color: '#FDC5F5' }}> FDC5F5cotton candy</span>,
-			</h3>
+			</h3> */}
 			<br></br>
 			<br></br>
 			<br></br>
