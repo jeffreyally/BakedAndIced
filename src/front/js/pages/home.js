@@ -21,28 +21,38 @@ export const Home = () => {
 		<div className="container mt-4" style={{ backgroundColor: 'ghostwhite' }}>
 			<div className="row">
 
-				<div className="col">
+				<div className="col-12 col-md-6">
 
-					<p style={{ fontFamily: 'Londrina Solid, cursive', fontSize: '6rem', textAlign: 'center' }}>Did you know?</p>
+					<p className='didYouKnowTitle'style={{ fontFamily: 'Londrina Solid, cursive',  textAlign: 'center' }}>Did you know?</p>
 
-					<p style={{
-						fontFamily: 'Londrina Solid, cursive', fontSize: '2rem',
+					<p className='didYouKnowText'style={{
+						fontFamily: 'Londrina Solid, cursive', 
 						fontWeight: '300', textAlign: 'center'
 					}}>National Cookie Day is <s>December 4th.</s> Haha, yeah right.</p>
 
-					<br></br>
+					<br class="d-none d-lg-inline"></br>
 
-					<p style={{
-						fontFamily: 'Londrina Solid, cursive', fontSize: '2rem',
+					<p className='didYouKnowText' style={{
+						fontFamily: 'Londrina Solid, cursive', 
 						fontWeight: '300', textAlign: 'center'
-					}}>National Cookie Day when you're having a bad day, when you're looking to cheat on your diet, when the Heat win, con su cafecito en la manana, etc.</p>
+					}}>National Cookie Day is when you're having a bad day, when you're looking to cheat on your diet, when the Heat win, con su cafecito en la manana, etc.</p>
 
 
 
 				</div>
 
-				<div className="col">
-					<img src={fulllogo} style={{maxWidth:'100%'}}/>
+				<div className="col-12 col-md-6">
+					<div className="row">
+						<div className="col">
+
+							<img src={fulllogo} style={{ maxWidth: '100%' }} />
+
+						</div>
+						
+
+					</div>
+					
+
 
 				</div>
 			</div>
@@ -99,7 +109,7 @@ export const Home = () => {
 	);
 };
 
-let Arelysquote=`<div class="row justify-content-end">
+let Arelysquote = `<div class="row justify-content-end">
 <div class="col-3"><blockquote><p class='lead'>"There is always room for dessert."</p>
   &mdash; <cite>Arelys</cite> </blockquote></div>
 </div>`
