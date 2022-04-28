@@ -67,6 +67,8 @@ export const Footer = () => {
           </h5>
           
           
+          
+          <br></br>
           <p   style={{fontFamily:'Roboto, sans-serif'}}>
             <i class="fas fa-envelope me-3 fa-lg" ></i>
             info@example.com
@@ -78,16 +80,16 @@ export const Footer = () => {
                   </div>
         
       </div>
-    
+      <div class="text-center p-4">
+  <i class="fas fa-copyright"style={{color:'darkblue'}}></i>&nbsp;
+    <span style={{fontWeight:'bold'}}> 2022 Copyright: BAKED AND ICED BY ARELYS</span>
+  </div>
     </div>
   </section>
 
 
   
-  <div class="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
-  <i class="fas fa-copyright"style={{color:'darkblue'}}></i>&nbsp;
-    <span style={{fontWeight:'bold'}}> 2022 Copyright: BAKED AND ICED BY ARELYS</span>
-  </div>
+  
   
 </footer>
 
