@@ -36,14 +36,14 @@ export const Contact = () => {
 
 
                 <div class="col-md-6">
-                  <label for="yourname" class="form-label">Name</label>
+                  <label for="yourname" class="form-label" style={{fontFamily:'Roboto, sans-serif'}}>Name</label>
                   <input type="text" id="yourname" name="name" class="form-control " placeholder="Full Name" required />
 
                 </div>
                 
 
                 <div class="col-md-6">
-                  <label for="youremail" class="form-label">Email address</label>
+                  <label for="youremail" class="form-label" style={{fontFamily:'Roboto, sans-serif'}}>Email address</label>
 
                   <input type="email" id="youremail" name="email" class="form-control" placeholder="Email Address" required />
                   
@@ -53,7 +53,7 @@ export const Contact = () => {
               <div class="row">
                 <div class="col-md-12">
 
-                  <label for="yourmessage" class="form-label">Message</label>
+                  <label for="yourmessage" class="form-label" style={{fontFamily:'Roboto, sans-serif'}}>Message</label>
                   <textarea name="message" style= {{overflow:'auto',resize:'none'}} rows="4" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
               
 

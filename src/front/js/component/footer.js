@@ -44,16 +44,16 @@ export const Footer = () => {
   <table class="table  text-yellow">
     <tbody class="font-weight-normal">
       <tr>
-      <td style={{fontFamily:'sans-serif'}}>Monday to Friday</td>
-      <td style={{fontFamily:'sans-serif'}} >8 AM - 1 PM</td>
+      <td  style={{fontFamily:'Roboto, sans-serif'}}>Monday to Friday</td>
+      <td style={{fontFamily:'Roboto, sans-serif'}} >8 AM - 1 PM</td>
       </tr>
       <tr>
-        <td style={{fontFamily:'sans-serif'}}>Friday and Saturday</td>
-        <td style={{fontFamily:'sans-serif'}}>8AM - 1PM</td>
+        <td  style={{fontFamily:'Roboto, sans-serif'}}>Friday and Saturday</td>
+        <td  style={{fontFamily:'Roboto, sans-serif'}}>8AM - 1PM</td>
       </tr>
       <tr>
-        <td style={{fontFamily:'sans-serif'}}>Sunday:</td>
-        <td style={{fontFamily:'sans-serif'}}>Closed</td>
+        <td  style={{fontFamily:'Roboto, sans-serif'}}>Sunday:</td>
+        <td  style={{fontFamily:'Roboto, sans-serif'}}>Closed</td>
       </tr>
     </tbody>
   </table>
@@ -67,12 +67,12 @@ export const Footer = () => {
           </h5>
           
           
-          <p  style={{fontFamily:'sans-serif'}}>
+          <p   style={{fontFamily:'Roboto, sans-serif'}}>
             <i class="fas fa-envelope me-3 fa-lg" ></i>
             info@example.com
           </p>
-          <p  style={{fontFamily:'sans-serif'}}><i class="fas fa-phone me-3 fa-lg"></i> + 01 234 567 88</p>
-          <p  style={{fontFamily:'sans-serif'}}><i class="fab fa-instagram me-3 fa-lg" style={{fontWeight:'bold'}}></i> Follow Us On Instagram</p>
+          <p   style={{fontFamily:'Roboto, sans-serif'}}><i class="fas fa-phone me-3 fa-lg"></i> + 01 234 567 88</p>
+          <p  style={{fontFamily:'Roboto, sans-serif'}}><i class="fab fa-instagram me-3 fa-lg" style={{fontWeight:'bold'}}></i> Follow Us On Instagram</p>
           
           
                   </div>
