@@ -8,6 +8,7 @@ import BabyShower from "../../img/babyshower.jpeg"
 import wedding1 from "../../img/wedding1.jpeg"
 import wedding2 from "../../img/wedding2.jpeg"
 import logo from "../../img/Logo.png"
+import fulllogo from "../../img/fulllogo.jpeg"
 
 import { HomePageCookieCarousel } from '../component/homePageCookieCarousel.js'
 
@@ -17,21 +18,43 @@ export const Home = () => {
 
 	return (
 
-		<div className="container" style={{ backgroundColor: 'ghostwhite' }}>
+		<div className="container mt-4" style={{ backgroundColor: 'ghostwhite' }}>
+			<div className="row">
 
-<p style={{ fontFamily: 'Londrina Solid, cursive', fontSize: '6rem', textAlign: 'center' }}>Did you know?</p>
+				<div className="col">
 
-<p style={{
-	fontFamily: 'Londrina Solid, cursive', fontSize: '2rem',
-	fontWeight: '300', textAlign: 'center'
-}}>National Cookie Day is <s>December 4th.</s> Every day</p>
-			
+					<p style={{ fontFamily: 'Londrina Solid, cursive', fontSize: '6rem', textAlign: 'center' }}>Did you know?</p>
+
+					<p style={{
+						fontFamily: 'Londrina Solid, cursive', fontSize: '2rem',
+						fontWeight: '300', textAlign: 'center'
+					}}>National Cookie Day is <s>December 4th.</s> Haha, yeah right.</p>
+
+					<br></br>
+
+					<p style={{
+						fontFamily: 'Londrina Solid, cursive', fontSize: '2rem',
+						fontWeight: '300', textAlign: 'center'
+					}}>National Cookie Day when you're having a bad day, when you're looking to cheat on your diet, when the Heat win, con su cafecito en la manana, etc.</p>
+
+
+
+				</div>
+
+				<div className="col">
+					<img src={fulllogo} style={{maxWidth:'100%'}}/>
+
+				</div>
+			</div>
 
 
 
 
 
-				{/* <br></br>
+
+
+
+			{/* <br></br>
 			<p class="text-center" style={{fontFamily:'Bubblegum Sans, cursive',
             fontSize:'3rem'}}><i>CHECK OUT OUR DESIGNS</i></p>
 			<br></br>
@@ -44,40 +67,44 @@ export const Home = () => {
 				<span style={{ color: '#F7AEF8' }}>F7AEF8 plum something</span>,
 				<span style={{ color: '#FDC5F5' }}> FDC5F5cotton candy</span>,
 			</h3> */}
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
 
-				{/* <p>
+			{/* <p>
 				This boilerplate comes with lots of documentation:{" "}
 				<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
 					Read documentation
 				</a>
 			</p> */}
-			</div >
+		</div >
 
-			);
+	);
 };
 
+let Arelysquote=`<div class="row justify-content-end">
+<div class="col-3"><blockquote><p class='lead'>"There is always room for dessert."</p>
+  &mdash; <cite>Arelys</cite> </blockquote></div>
+</div>`
 
-			let carouselcode = `<div id="carouselExampleInterval" class=" carousel slide carousel carousel-dark" data-bs-ride="carousel" >
+let carouselcode = `<div id="carouselExampleInterval" class=" carousel slide carousel carousel-dark" data-bs-ride="carousel" >
 				<div class="carousel-inner">
 					<div class="carousel-item active" data-bs-interval="90000" style={{ position: 'relative' }}>
 
