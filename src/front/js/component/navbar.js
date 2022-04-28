@@ -46,7 +46,7 @@ export const Navbar = () => {
 												<div class="col-lg">
 													<div class="nav-item me-5">
 
-														<Link to="/" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}>FAQ</Link>
+														<a target="_blank" href="https://docs.google.com/forms/d/13ZYYcn-7LddKho5vAF96bAXO83XJeNpk-uG9ZkFBHY8/edit" style={{ color: '#B388EB ', fontFamily: 'Coustard, serif' }}><u>Order</u></a>
 													</div>
 												</div>
 												<div class="col-lg">
