@@ -18,10 +18,10 @@ export const Home = () => {
 
 	return (
 <>
-		<div className="container mt-4" style={{ backgroundColor: 'ghostwhite' }}>
+		<div className="container mt-4">
 			<div className="row">
 
-				<div className="col-12 col-md-6">
+				<div className="col-12 col-md-6 mb-1"  >
 
 					<p className='didYouKnowTitle'style={{ fontFamily: 'Londrina Solid, cursive',  textAlign: 'center' }}>Did you know?</p>
 
@@ -41,11 +41,11 @@ export const Home = () => {
 
 				</div>
 
-				<div className="col-12 col-md-6">
+				<div className="col-12 col-md-6 mb-1">
 					<div className="row">
 						<div className="col">
 
-							<img src={fulllogo} style={{ maxWidth: '100%' }} />
+							<img src={fulllogo} style={{ maxWidth: '100%', }} />
 
 						</div>
 						
