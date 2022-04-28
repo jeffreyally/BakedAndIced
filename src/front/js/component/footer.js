@@ -39,21 +39,21 @@ export const Footer = () => {
        
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
          
-        <h5 class="text-uppercase mb-4">Business hours</h5>
+        <h5 class="text-uppercase mb-4" style={{fontFamily:' Bubblegum Sans, cursive'}}>Business hours</h5>
   
   <table class="table  text-yellow">
     <tbody class="font-weight-normal">
       <tr>
-      <td>Monday to Friday</td>
-      <td>8 am - 1 am</td>
+      <td style={{fontFamily:'sans-serif'}}>Monday to Friday</td>
+      <td style={{fontFamily:'sans-serif'}} >8 AM - 1 PM</td>
       </tr>
       <tr>
-        <td>Friday and Saturday</td>
-        <td>8am - 1am</td>
+        <td style={{fontFamily:'sans-serif'}}>Friday and Saturday</td>
+        <td style={{fontFamily:'sans-serif'}}>8AM - 1PM</td>
       </tr>
       <tr>
-        <td>Sunday:</td>
-        <td>Closed</td>
+        <td style={{fontFamily:'sans-serif'}}>Sunday:</td>
+        <td style={{fontFamily:'sans-serif'}}>Closed</td>
       </tr>
     </tbody>
   </table>
@@ -62,17 +62,17 @@ export const Footer = () => {
         
         <div class="col-md-3 mx-auto mb-md-2 mb-4">
           
-          <h6 class="text-uppercase fw-bold mb-4 ">
+          <h5 class="text-uppercase  mb-4 "  style={{fontFamily:' Bubblegum Sans, cursive'}}>
             Contact
-          </h6>
+          </h5>
           
           
-          <p>
-            <i class="fas fa-envelope me-3 fa-lg"></i>
+          <p  style={{fontFamily:'sans-serif'}}>
+            <i class="fas fa-envelope me-3 fa-lg" ></i>
             info@example.com
           </p>
-          <p><i class="fas fa-phone me-3 fa-lg"></i> + 01 234 567 88</p>
-          <p><i class="fab fa-instagram me-3 fa-lg" style={{fontWeight:'bold'}}></i> Follow Us On Instagram</p>
+          <p  style={{fontFamily:'sans-serif'}}><i class="fas fa-phone me-3 fa-lg"></i> + 01 234 567 88</p>
+          <p  style={{fontFamily:'sans-serif'}}><i class="fab fa-instagram me-3 fa-lg" style={{fontWeight:'bold'}}></i> Follow Us On Instagram</p>
           
           
                   </div>
