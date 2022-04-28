@@ -17,7 +17,7 @@ export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-
+<>
 		<div className="container mt-4" style={{ backgroundColor: 'ghostwhite' }}>
 			<div className="row">
 
@@ -35,7 +35,7 @@ export const Home = () => {
 					<p className='didYouKnowText' style={{
 						fontFamily: 'Londrina Solid, cursive', 
 						fontWeight: '300', textAlign: 'center'
-					}}>National Cookie Day is when you're having a bad day, when you're looking to cheat on your diet, when the Heat win, con su cafecito en la manana, etc.</p>
+					}}>National Cookie Day is when you're having a bad day, when you're looking to cheat on your diet, when the Heat win, con su cafecito en la mañana, etc.</p>
 
 
 
@@ -58,13 +58,7 @@ export const Home = () => {
 			</div>
 
 
-
-
-
-
-
-
-			{/* <br></br>
+{/* <br></br>
 			<p class="text-center" style={{fontFamily:'Bubblegum Sans, cursive',
             fontSize:'3rem'}}><i>CHECK OUT OUR DESIGNS</i></p>
 			<br></br>
@@ -77,26 +71,7 @@ export const Home = () => {
 				<span style={{ color: '#F7AEF8' }}>F7AEF8 plum something</span>,
 				<span style={{ color: '#FDC5F5' }}> FDC5F5cotton candy</span>,
 			</h3> */}
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
+		
 
 			{/* <p>
 				This boilerplate comes with lots of documentation:{" "}
@@ -104,7 +79,21 @@ export const Home = () => {
 					Read documentation
 				</a>
 			</p> */}
+
 		</div >
+
+		<div className="container">
+			<br></br>
+		<hr/>
+		<br></br>
+		<p class="text-center" style={{fontFamily:'Bubblegum Sans, cursive',
+            fontSize:'3rem'}}><i>CHECK OUT OUR COOKIES</i></p>
+			<br></br>
+			<HomePageCookieCarousel/>
+			<br></br>
+		</div>
+		
+		</>
 
 	);
 };
