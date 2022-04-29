@@ -20,7 +20,7 @@ export const AboutPage = () => {
 
     return (
         
-            <div class="container" >
+            <div class="container mb-5" >
                 <br></br>
                 <p class="text-center" style={{fontFamily:'Bubblegum Sans, cursive',
             fontSize:'3rem'}}><i>OUR STORY</i></p>
